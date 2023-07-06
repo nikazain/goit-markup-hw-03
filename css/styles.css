@@ -275,11 +275,11 @@ img {
 
 /* Footer */
 .footer {
-  display: inline-block;
   padding: 100px 0;
   background-color: var(--color-navy-blue);
 }
 .logo-footer {
+  display: inline-block;
   display: flex;
   margin-bottom: 16px;
   font-family: var(--logo-font);
@@ -314,7 +314,7 @@ img {
   gap: 24px;
   margin: 96px 0 72px 0;
   padding: 0;
-  row-gap: 48px;
+  margin-bottom: 48px;
 }
 .visually-hidden {
   margin: -1px;
@@ -351,12 +351,12 @@ img {
 /* Main Bit */
 .main-list {
   display: flex;
-  gap: 24px;
   flex-basis: calc(100%-48px) / 3;
   width: 1128px;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
+  row-gap: 48px;
 }
 .main-item {
   border: 1px solid var(--cornflower, #e7e9fc);
@@ -371,6 +371,7 @@ img {
   flex-shrink: 0;
 }
 .main-text {
+  border-top: none;
   padding: 32px 0;
   justify-content: center;
   align-items: flex-start;
