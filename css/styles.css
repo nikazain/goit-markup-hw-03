@@ -280,7 +280,6 @@ img {
 }
 .logo-footer {
   display: inline-block;
-  display: flex;
   margin-bottom: 16px;
   font-family: var(--logo-font);
   font-style: normal;
@@ -312,7 +311,8 @@ img {
   align-items: center;
   justify-content: center;
   gap: 24px;
-  margin: 96px 0 72px 0;
+  margin: 96px 0 0 0;
+  margin-bottom: 72px;
   padding: 0;
   margin-bottom: 48px;
 }
@@ -357,6 +357,7 @@ img {
   padding: 0;
   margin: 0;
   row-gap: 48px;
+  column-gap: 24px;
 }
 .main-item {
   border: 1px solid var(--cornflower, #e7e9fc);
