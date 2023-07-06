@@ -311,10 +311,9 @@ img {
   align-items: center;
   justify-content: center;
   gap: 24px;
-  margin: 96px 0 0 0;
-  margin-bottom: 72px;
   padding: 0;
-  margin-bottom: 48px;
+  margin-top: 0;
+  margin-bottom: 72px;
 }
 .visually-hidden {
   margin: -1px;
@@ -372,12 +371,9 @@ img {
   flex-shrink: 0;
 }
 .main-text {
-  border-top: none;
-  padding: 32px 0;
-  justify-content: center;
-  align-items: flex-start;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .article {
@@ -386,7 +382,7 @@ img {
   border-color: var(--color-cornflower);
 }
 .article-title {
-  padding: 0px 16px;
+  padding: 0;
   margin-bottom: 8px;
   font-size: 20px;
   line-height: 1.2;
@@ -395,7 +391,7 @@ img {
   color: var(--color-navy-blue);
 }
 .article-text {
-  padding: 0px 16px;
+  padding: 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
